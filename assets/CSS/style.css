@@ -30,6 +30,11 @@ nav li{
     color: #404040;
 
 }
+li:hover{
+    text-decoration: underline;
+    color: #953A2A;
+    text-decoration-color: #953A2A;
+}
 header h1{
     font-size: 3.28rem;
     font-family: var(--source);
@@ -53,7 +58,31 @@ button{
     border-radius: 1rem;
 }
 button:hover{
-    background-color: #404040;
+    background-color: #daaca4;
     color: #953A2A;
     scale: 1.5;
+}
+main{
+    margin: 0rem 8rem;
+}
+.block1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.b1{
+    width:50rem;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.b1 h1{
+    font-family: var(--poppins);
+    font-size: 6rem;
+    font-weight: 700;
+}
+.block1 img{
+    background-color: #C5B6D3;
+    border-radius: 3rem;
 }
